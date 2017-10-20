@@ -1,0 +1,596 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"get",
+				"getPiso〔function〕"
+			],
+			[
+				"res",
+				"$reserva〔variable〕"
+			],
+			[
+				"Per",
+				"Persona〔class〕"
+			],
+			[
+				"req",
+				"require_once〔function〕"
+			],
+			[
+				"de",
+				"descuento"
+			],
+			[
+				"ses",
+				"session_start〔function〕"
+			],
+			[
+				"result",
+				"$resultados〔variable〕"
+			],
+			[
+				"genr",
+				"$genre_id〔variable〕"
+			],
+			[
+				"gen",
+				"$genre_id〔variable〕"
+			],
+			[
+				"st",
+				"$stmt〔variable〕"
+			],
+			[
+				"resu",
+				"$resultados〔variable〕"
+			],
+			[
+				"PDO",
+				"PDOException〔class〕"
+			],
+			[
+				"erro",
+				"errores"
+			],
+			[
+				"usuarios",
+				"usuarios.json"
+			],
+			[
+				"getUser",
+				"getUserByEmail($email, $pathDB)\tmixed"
+			],
+			[
+				"usua",
+				"$usuarios〔variable〕"
+			],
+			[
+				"err",
+				"$errores〔variable〕"
+			],
+			[
+				"sessi",
+				"session_destroy"
+			],
+			[
+				"_SE",
+				"$_SESSION〔variable〕"
+			],
+			[
+				"_S",
+				"$_SESSION〔variable〕"
+			],
+			[
+				"unser",
+				"unset〔keyword〕"
+			],
+			[
+				"u",
+				"$usuarios〔variable〕"
+			],
+			[
+				"nom",
+				"nombreCompleto"
+			],
+			[
+				"json",
+				"json_encode〔function〕"
+			],
+			[
+				"FILTER_VA",
+				"FILTER_VALIDATE_EMAIL〔constant〕"
+			],
+			[
+				"PAT",
+				"PATHINFO_EXTENSION〔constant〕"
+			],
+			[
+				"UPLOAD",
+				"UPLOAD_ERR_OK〔constant〕"
+			],
+			[
+				"fget",
+				"fgets〔function〕"
+			],
+			[
+				"PASS",
+				"PASSWORD_DEFAULT〔constant〕"
+			],
+			[
+				"pas",
+				"$password〔variable〕"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"fun",
+				"function〔keyword〕"
+			],
+			[
+				"mo",
+				"$moneda〔variable〕"
+			],
+			[
+				"es",
+				"$estatura〔variable〕"
+			],
+			[
+				"var",
+				"var_dump〔function〕"
+			],
+			[
+				"head",
+				"header\tTag"
+			],
+			[
+				"mi",
+				"miPersona"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 232.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pak",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/fswd/Escritorio/php/tm/laravel/blog",
+		"/home/fswd/Escritorio/php/tm/laravel/blog/resources",
+		"/home/fswd/Escritorio/php/tm/laravel/blog/resources/views"
+	],
+	"file_history":
+	[
+		"/home/fswd/Escritorio/php/tm/laravel/blog/app/Http/Controllers/BladeController.php",
+		"/home/fswd/Escritorio/php/tm/laravel/blog/resources/views/app.blade.php",
+		"/home/fswd/Escritorio/php/tm/laravel/blog/resources/views/bootstrap.blade.php",
+		"/home/fswd/Escritorio/php/tm/laravel/blog/routes/web.php",
+		"/home/fswd/Escritorio/php/tm/startbootstrap-shop-item-gh-pages/index.html",
+		"/home/fswd/Escritorio/php/tm/laravel/blog/resources/views/blade.blade.php",
+		"/home/fswd/Escritorio/php/tm/laravel/blog/app/Http/Controllers/PeliculaController.php",
+		"/home/fswd/Escritorio/php/tm/laravel/blog/app/Http/Controllers/EjemploController.php",
+		"/home/fswd/Escritorio/php/tm/laravel/blog/app/Http/Controllers/Controller.php",
+		"/home/fswd/Escritorio/php/tm/laravel/blog/resources/views/test.blade.php",
+		"/home/fswd/Escritorio/php/tm/laravel/blog/resources/views/welcome.blade.php",
+		"/home/fswd/Escritorio/php/tm/laravel/blog/public/css/app.css",
+		"/home/fswd/Escritorio/php/tm/laravel/blog/public/index.php",
+		"/home/fswd/Escritorio/php/tm/oop/clase4/classes/Pelicula.php",
+		"/home/fswd/Escritorio/php/tm/oop/clase4/test.php",
+		"/home/fswd/Escritorio/php/tm/oop/clase4/static.php",
+		"/home/fswd/Escritorio/php/tm/oop/Banco2/banco.php",
+		"/home/fswd/Escritorio/php/tm/oop/Banco2/Entidades/Cuentas/Gold.php",
+		"/home/fswd/Escritorio/php/tm/oop/Banco2/Entidades/Clientes/Persona.php",
+		"/home/fswd/Escritorio/php/tm/oop/Banco2/Entidades/Clientes/Cliente.php",
+		"/home/fswd/Escritorio/php/tm/oop/Banco2/Entidades/Cuentas/Classic.php",
+		"/home/fswd/Escritorio/php/tm/oop/Banco2/Entidades/Cuentas/Cuenta.php",
+		"/home/fswd/Escritorio/php/tm/oop/Banco2/Entidades/Cuentas/Platinum.php",
+		"/home/fswd/Escritorio/php/tm/oop/clase3/namespace/funciones.php",
+		"/home/fswd/Escritorio/php/tm/oop/clase3/namespace/helpers.php",
+		"/home/fswd/Escritorio/php/tm/oop/clase3/namespace/index.php",
+		"/home/fswd/Escritorio/php/tm/oop/clase3/classes/Usuario.php",
+		"/home/fswd/Escritorio/php/tm/oop/clase3/classes/Hotel.php",
+		"/home/fswd/Escritorio/php/tm/oop/clase3/classes/Ubicacion.php",
+		"/home/fswd/Escritorio/php/tm/oop/clase3/index.php",
+		"/home/fswd/Escritorio/php/tm/oop/clase3/classes/Reserva.php",
+		"/home/fswd/Escritorio/php/tm/oop/clase2/classes/Perro.php",
+		"/home/fswd/Escritorio/php/tm/oop/clase2/classes/Gato.php",
+		"/home/fswd/Escritorio/php/tm/oop/clase2/classes/Animal.php",
+		"/home/fswd/Escritorio/php/tm/oop/clase2/index.php",
+		"/home/fswd/Escritorio/php/tm/oop/clase2/Cliente.php",
+		"/home/fswd/Escritorio/php/tm/oop/clase2/Persona.php",
+		"/home/fswd/Escritorio/php/tm/oop/clase2/cliente.php",
+		"/home/fswd/Escritorio/php/tm/oop/Ejemplo.php",
+		"/home/fswd/Escritorio/php/tm/oop/clase2/classes/Guardian.php",
+		"/home/fswd/Escritorio/php/tm/oop/clase1/type-hinting.php",
+		"/media/fswd/STORE N GO/DH/oop/clase2/cliente.php",
+		"/home/fswd/Escritorio/php/tm/oop/clase1/classes/Usuario.php",
+		"/home/fswd/Escritorio/php/tm/oop/clase1/ejemplo-saludar.php",
+		"/home/fswd/Escritorio/php/tm/oop/clase1/index.php",
+		"/home/fswd/Escritorio/php/tm/oop/clase1/classes/Estado.php",
+		"/home/fswd/Escritorio/php/tm/oop/clase1/constantes.php",
+		"/home/fswd/Escritorio/php/tm/oop/clase1/classes",
+		"/home/fswd/laravelAnual/peliculas/.env",
+		"/home/fswd/laravelAnual/peliculas/app/Actor.php",
+		"/home/fswd/laravelAnual/peliculas/app/Http/Controllers/Auth/LoginController.php",
+		"/home/fswd/laravelAnual/peliculas/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php",
+		"/home/fswd/laravelAnual/peliculas/vendor/laravel/framework/src/Illuminate/Routing/Router.php",
+		"/home/fswd/laravelAnual/peliculas/vendor/laravel/framework/src/Illuminate/Foundation/Auth/RegistersUsers.php",
+		"/media/fswd/STORE N GO/DH/pdo/clase2/agregarPelicula_2.php",
+		"/home/fswd/Escritorio/php/tm/pdo/clase2/transaction.php",
+		"/home/fswd/Escritorio/php/tm/pdo/clase1/ejemplo.php",
+		"/home/fswd/Escritorio/php/tm/pdo/clase2/binding-por-valor.php",
+		"/home/fswd/Escritorio/php/tm/pdo/conn.php",
+		"/home/fswd/Escritorio/php/tm/pdo/clase1/ejercicio.php",
+		"/home/fswd/Escritorio/php/tm/pdo/clase1/rowCount.php",
+		"/home/fswd/Escritorio/php/tm/pdo/clase1/try.php",
+		"/home/fswd/Escritorio/php/tm/pdo/nueva-sintaxis.php",
+		"/home/fswd/Documentos/gelordi/movies-db.sql",
+		"/home/fswd/Escritorio/php/tm/php/repaso/registro.php",
+		"/home/fswd/Escritorio/php/tm/php/repaso/controllers/registro.controller.php",
+		"/home/fswd/Escritorio/php/tm/php/repaso/db/usuarios.json",
+		"/home/fswd/Escritorio/php/tm/php/repaso/test.php",
+		"/home/fswd/Escritorio/php/tm/php/repaso/helpers.php",
+		"/home/fswd/Escritorio/php/tm/php/repaso/usuario.php",
+		"/home/fswd/Escritorio/php/tm/php/repaso/exito.php",
+		"/home/fswd/Escritorio/php/tm/php/clase8/controllers/registro.controller.php",
+		"/home/fswd/Escritorio/php/tm/php/clase9/pagina2.php",
+		"/home/fswd/Escritorio/php/tm/php/clase9/php/cerrarSesion.controller.php",
+		"/home/fswd/Escritorio/php/tm/php/clase9/pagina1.php",
+		"/home/fswd/Escritorio/php/tm/php/clase9/form.php",
+		"/home/fswd/Escritorio/php/tm/php/clase9/php/session.controller.php",
+		"/home/fswd/Escritorio/php/tm/php/clase8/registro.php",
+		"/home/fswd/Escritorio/php/tm/php/clase9/php/verCookie.php",
+		"/home/fswd/Escritorio/php/tm/php/clase9/php/cookies.controller.php",
+		"/home/fswd/Escritorio/php/tm/php/clase9/php/post.controller.php",
+		"/home/fswd/Escritorio/php/tm/php/clase8/db/usuarios.json",
+		"/home/fswd/Escritorio/php/tm/php/clase8/usuario.php",
+		"/home/fswd/Escritorio/php/tm/php/clase7/usuarios.txt",
+		"/home/fswd/Escritorio/php/tm/php/clase7/usuarios.json",
+		"/home/fswd/Escritorio/php/tm/php/clase7/login.php",
+		"/home/fswd/Escritorio/php/tm/php/clase7/controllers/register.controller.php",
+		"/home/fswd/Escritorio/php/tm/php/clase7/controllers/login.controller.php",
+		"/home/fswd/Escritorio/php/tm/php/clase7/sin-texto.txt",
+		"/home/fswd/Escritorio/php/tm/php/clase7/archivos.php",
+		"/home/fswd/Escritorio/php/tm/php/clase7/no-existe.txt",
+		"/home/fswd/Escritorio/php/tm/php/clase7/con-texto.txt",
+		"/home/fswd/Escritorio/php/tm/php/clase7/con-texo.txt",
+		"/home/fswd/Escritorio/php/tm/php/clase7/register.php",
+		"/home/fswd/Escritorio/php/tm/php/clase6/filter_var.php",
+		"/home/fswd/Escritorio/php/tm/php/clase6/helpers.php",
+		"/home/fswd/Escritorio/php/tm/php/clase5/login.controller.php",
+		"/home/fswd/Escritorio/php/tm/php/clase5/consola.php",
+		"/home/fswd/Escritorio/php/tm/php/clase5/formulario.php",
+		"/home/fswd/Escritorio/php/tm/php/clase4/web/contacto.php",
+		"/home/fswd/Escritorio/php/tm/php/clase4/web/index.php",
+		"/home/fswd/Escritorio/php/tm/php/clase4/web/nav.php",
+		"/home/fswd/Escritorio/php/tm/php/clase4/contacto.php",
+		"/home/fswd/Escritorio/php/tm/php/clase4/home.php",
+		"/home/fswd/Escritorio/php/tm/php/clase4/helpers.php",
+		"/home/fswd/Escritorio/php/tm/php/clase4/funciones.php",
+		"/home/fswd/Escritorio/php/tm/php/clase3/bucles.php",
+		"/home/fswd/Escritorio/php/tm/php/clase3/ejercicio5.php",
+		"/home/fswd/Escritorio/php/tm/php/helpers.php",
+		"/home/fswd/Escritorio/php/tm/php/clase2/info.php",
+		"/home/fswd/Escritorio/php/tm/php/clase2/condicionales.php",
+		"/home/fswd/Escritorio/php/tm/php/clase1/variables.php",
+		"/home/fswd/Escritorio/php/tm/php/clase1/hola-mundo.php",
+		"/home/fswd/Escritorio/php/tm/php/clase1/hola-mundo.html",
+		"/home/fswd/Escritorio/php/tm/php/clase1/operadores.php",
+		"/home/fswd/elclon/git-tt-2q/home.html",
+		"/home/fswd/elclon/git-tt-2q/contacto.html",
+		"/home/fswd/elclon/git-tt-2q/secciones.html",
+		"/home/fswd/COPIA/tm-clase-git/home.html",
+		"/home/fswd/COPIA/tm-clase-git/secciones.html",
+		"/home/fswd/COPIA/tm-clase-git/contacto.html",
+		"/home/fswd/Escritorio/php/objetos/persona.php",
+		"/home/fswd/laravel/app/Http/Controllers/Auth/RegisterController.php",
+		"/home/fswd/laravel/app/Exceptions/Handler.php",
+		"/home/fswd/laravel/routes/web.php",
+		"/home/fswd/laravel/config/mail.php",
+		"/home/fswd/laravel/app/Http/Controllers/Auth/LoginController.php",
+		"/home/fswd/laravel/app/Http/Controllers/PeliculasController.php"
+	],
+	"find":
+	{
+		"height": 50.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"li",
+			"app.css",
+			"boot",
+			"private",
+			"producto",
+			"authenticated",
+			"']);\n",
+			"guardarImagen",
+			"exi",
+			",\"",
+			"'",
+			"path",
+			"$loginpath"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"public",
+			",\n\"",
+			"\""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 42.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "blog.sublime-project",
+	"replace":
+	{
+		"height": 80.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"boot",
+				"resources/views/bootstrap.blade.php"
+			],
+			[
+				"blade",
+				"app/Http/Controllers/BladeController.php"
+			],
+			[
+				"rw",
+				"routes/web.php"
+			],
+			[
+				"bladecon",
+				"app/Http/Controllers/BladeController.php"
+			],
+			[
+				"peliu",
+				"app/Http/Controllers/PeliculaController.php"
+			],
+			[
+				"eje",
+				"app/Http/Controllers/EjemploController.php"
+			],
+			[
+				"viewtest",
+				"resources/views/test.blade.php"
+			],
+			[
+				"contro",
+				"app/Http/Controllers/Controller.php"
+			],
+			[
+				"gold",
+				"Banco2/Entidades/Cuentas/Gold.php"
+			],
+			[
+				"router.php",
+				"vendor/laravel/framework/src/Illuminate/Routing/Router.php"
+			],
+			[
+				"illuminate/foundation/auth/authenticatesusers",
+				"vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php"
+			],
+			[
+				"logincon",
+				"app/Http/Controllers/Auth/LoginController.php"
+			],
+			[
+				"illuminate/foundation/auth/registersusers",
+				"vendor/laravel/framework/src/Illuminate/Foundation/Auth/RegistersUsers.php"
+			],
+			[
+				"ejempl",
+				"clase1/ejemplo.php"
+			],
+			[
+				"registo.con",
+				"repaso/controllers/registro.controller.php"
+			],
+			[
+				"session",
+				"clase9/php/session.controller.php"
+			],
+			[
+				"pagi",
+				"clase9/pagina2.php"
+			],
+			[
+				"regis",
+				"clase7/controllers/register.controller.php"
+			],
+			[
+				"var",
+				"clase1/variables.php"
+			],
+			[
+				"hola",
+				"clase1/hola-mundo.php"
+			],
+			[
+				"transformsrequest",
+				"vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php"
+			],
+			[
+				"convertemptystringstonull",
+				"vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php"
+			],
+			[
+				"trimstrings",
+				"app/Http/Middleware/TrimStrings.php"
+			],
+			[
+				"kerne",
+				"app/Http/Kernel.php"
+			],
+			[
+				"web.php",
+				"routes/web.php"
+			],
+			[
+				"app/exceptions/handler.php",
+				"app/Exceptions/Handler.php"
+			],
+			[
+				"authenticatesusers",
+				"vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php"
+			],
+			[
+				"mail.php",
+				"config/mail.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Escritorio/php/tm/php/php.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 278.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
