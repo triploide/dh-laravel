@@ -3,27 +3,36 @@
         <title>Agregar Pelicula</title>
     </head>
     <body>
+
+        @if (count($errors))
+            <ul>
+                @foreach ($errors->all() as $error)
+                    <li>{{ $error }}</li>
+                @endforeach
+            </ul>
+        @endif
+
         <form id="agregarPelicula" name="agregarPelicula" method="POST" action="/practica/rutas/formulario">
             {{ csrf_field() }}
             <div>
-                <label for="titulo">Titulo</label>
-                <input type="text" name="titulo" id="titulo"/>
+                <label for="title">Titulo</label>
+                <input type="text" value="{{ old('title') }}" name="title" id="title"/>
             </div>
             <div>
                 <label for="rating">Rating</label>
-                <input type="text" name="rating" id="rating"/>
+                <input type="text"  value="{{ old('rating') }}" name="rating" id="rating"/>
             </div>
             <div>
-                <label for="premios">Premios</label>
-                <input type="text" name="premios" id="premios"/>
+                <label for="awards">Premios</label>
+                <input type="text" value="{{ old('awards') }}"   name="awards" id="awards"/>
             </div>
             <div>
-                <label for="duracion">Duracion</label>
-                <input type="text" name="duracion" id="duracion"/>
+                <label for="length">Duracion</label>
+                <input type="text" value="{{ old('length') }}"  name="length" id="length"/>
             </div>
             <div>
                 <label>Fecha de Estreno</label>
-                <input type="date" name="fecha_estreno">
+                <input type="date" value="{{ old('release_date') }}" name="release_date">
             </div>
             <input type="submit" value="Agregar Pelicula" name="submit"/>
         </form>
