@@ -29,6 +29,7 @@ class MovieRequest extends FormRequest
             'awards'=> 'required|integer',
             'length'=> 'required|integer',
             'release_date'=> 'required|date',
+            'poster' => 'image'
         ];
     }
 }

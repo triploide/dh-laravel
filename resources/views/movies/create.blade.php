@@ -1,6 +1,7 @@
 <html>
     <head>
         <title>Agregar Pelicula</title>
+        <link rel="stylesheet" type="text/css" href="/css/app.css">
         <style type="text/css">
             div {margin-top: 20px}
             body {padding: 20px}
@@ -16,7 +17,7 @@
             </ul>
         @endif
 
-        <form id="agregarPelicula" name="agregarPelicula" method="POST" action="/movies">
+        <form id="agregarPelicula" name="agregarPelicula" method="POST" action="/movies" enctype="multipart/form-data">
             {{ csrf_field() }}
             <div>
                 <label for="title">Titulo</label>
@@ -33,6 +34,10 @@
             <div>
                 <label for="length">Duración</label>
                 <input type="text" value="{{ old('length') }}"  name="length" id="length"/>
+            </div>
+            <div>
+                <label for="poster">Poster</label>
+                <input type="file" value=""  name="poster" id="poster" multiple />
             </div>
             <div>
                 <label for="length">Género</label>

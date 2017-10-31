@@ -39,6 +39,21 @@ class MoviesController extends Controller
      */
     public function store(MovieRequest $request)
     {
+
+        //$filename = $request->file('poster1')->store('posters');
+
+        $movie = Movie::create($request->all());
+
+        $file = $request->file('poster'); //primer param name del input file
+
+        $filename = str_slug($movie->title) . '.' . $movie->id . '.' . $file->getClientOriginalExtension();
+
+        $file->storeAs('posters', $filename);
+
+        $movie->poster = $filename;
+
+        $movie->save();
+
         /*
         $movie = Movie::create($request->except('genre_id'));
         $genre = Genre::find($request->input('genre_id'));
@@ -47,8 +62,8 @@ class MoviesController extends Controller
         */
 
         //ids de actores
-        $movie = Movie::find(46);
-        $movie->actors()->sync([2]);
+        //$movie = Movie::find(46);
+        //$movie->actors()->sync([2]);
 
         return 'ok';
     }

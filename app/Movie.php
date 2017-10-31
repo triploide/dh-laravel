@@ -22,4 +22,9 @@ class Movie extends Model
     	return $this->belongsToMany(Actor::class);
     	//return $this->belongsToMany(Actor::class, 'actor_movie' ,'foreing_key', 'primary_key');
     }
+
+    public function getPosterPath()
+    {
+        return '/content/posters/' . $this->poster;
+    }
 }
