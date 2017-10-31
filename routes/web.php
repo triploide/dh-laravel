@@ -52,6 +52,11 @@ Route::get('practica/eloquent/find/{actorId}', 'Practica\EloquentController@find
 Route::get('practica/eloquent/where', 'Practica\EloquentController@where');
 Route::get('practica/eloquent/whereAnidado', 'Practica\EloquentController@whereAnidado');
 
+//----------------------
+//-----COLLECTIONS------
+//----------------------
+Route::get('practica/collections', 'Practica\CollectionController@test');
+
 //-------------------
 //-----PELÍCULAS-----
 //-------------------
