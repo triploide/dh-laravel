@@ -16,7 +16,7 @@ class MoviesController extends Controller
      */
     public function index()
     {
-        $movies = Movie::where('id', '<', 10)->get();
+        $movies = Movie::whereNotNull('genre_id')->paginate(4);
         //dd($movies[0]->genre);
         return view('movies.index', compact('movies'));
     }

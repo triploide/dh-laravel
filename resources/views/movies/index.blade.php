@@ -17,6 +17,9 @@
 				@foreach ($movies as $movie)
 					<p>{{ $movie->title }} - {{ $movie->genre->name }}</p>
 				@endforeach
+
+				{{ $movies->links() }}
+
 			</div>
 		</div>
 	</div>
