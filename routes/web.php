@@ -7,6 +7,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('maxi', function () {
+    return 'Hola Maxi';
+})->middleware('maxi');
+
+
 Route::get('test', function () {
 	/*
     $movies = Genre::find(1)->movies()->where('title', 'like', 'Sa%')->get();
@@ -15,12 +20,24 @@ Route::get('test', function () {
     }
     */
     
-
+    /*
     $movie = Movie::find(1);
     foreach ($movie->actors as $actor) {
     	echo $actor->getNombreCompleto() . '<br>';
     }
+    */
+
+    //\Auth::user()->name;
+
+    \Auth::attempt([
+        'email' => 'test@mail.com',
+        'password' => '123456'
+    ]);
+
 });
+
+
+
 
 
 
@@ -62,3 +79,9 @@ Route::get('practica/collections', 'Practica\CollectionController@test');
 //-------------------
 //Route::get('pelicula/{id}', 'PeliculaController@show');
 Route::resource('movies', 'MoviesController');
+
+Auth::routes();
+
+Route::get('registro', 'Auth\RegisterController@showRegistrationForm');
+
+Route::get('/home', 'HomeController@index')->name('home');
